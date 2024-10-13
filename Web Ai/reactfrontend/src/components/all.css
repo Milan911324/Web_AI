@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.chat-area {
+  background-color: #f8f9fa;
+  height: 67vh; /* Matches the height from your ChatArea component */
+  padding: 10px;
+  border-radius: 5px;
+  overflow-y: scroll;
+}
+
+.message {
+  padding: 10px;
+  border-bottom: 1px solid #e9ecef;
+  word-wrap: break-word; /* Ensure long text wraps to the next line */
+  white-space: pre-wrap; /* Preserves whitespace and breaks lines */
+  margin-bottom: 10px; /* Adds spacing between messages */
+}
+
+.message strong {
+  display: block; /* Ensures sender name starts on a new line */
+  margin-bottom: 5px;
+  color: #007bff; /* Adjust sender name color for better visibility */
+}
+
+.input-group input {
+  height: auto; /* Ensure the input box adjusts its height dynamically */
+  min-height: 40px; /* Minimum height for better usability */
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}

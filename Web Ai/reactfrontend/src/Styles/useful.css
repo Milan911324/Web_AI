@@ -1,0 +1,70 @@
+.useful-ai {
+    padding: 50px 20px; /* Generous padding for spacing */
+    background-color: #eef2f3; /* Light background for contrast */
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px; /* Spacing below title */
+    font-size: 2.5rem; /* Larger font size */
+    font-weight: 700; /* Bold title */
+    color: #2c3e50; /* Darker shade for contrast */
+}
+
+.ai-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+}
+
+.ai-card {
+    background-color: #ffffff; /* White card background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effects */
+    overflow: hidden; /* Prevent overflow */
+    text-align: center; /* Center content */
+    padding: 20px; /* Inner padding */
+}
+
+.ai-card:hover {
+    transform: translateY(-8px); /* Lift effect on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.ai-image {
+    width: 100%; /* Full width */
+    height: auto; /* Automatic height to maintain aspect ratio */
+    max-height: 150px; /* Maximum height */
+    object-fit: contain; /* Keep aspect ratio */
+    margin-bottom: 15px; /* Space below image */
+    border-radius: 8px; /* Rounded image corners */
+}
+
+.ai-title {
+    font-size: 1.5rem; /* Title size */
+    margin: 10px 0; /* Space around title */
+    color: #34495e; /* Dark color for title */
+}
+
+.ai-button {
+    padding: 12px 18px; /* Padding for button */
+    background-color: #3498db; /* Primary color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 25px; /* Rounded button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size for button */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    font-weight: 500; /* Medium weight */
+    outline: none; /* Remove outline */
+}
+
+.ai-button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+    transform: scale(1.05); /* Slight scale effect */
+}
+
+.ai-button:focus {
+    outline: none; /* Remove focus outline */
+}
